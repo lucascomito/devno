@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>DEVNO.</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html">Devno.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="como.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="contacto.html"
+                >Hablemos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="space-md contact">
+      <div class="container">
+        <div class="row d-flex align-content-center">
+          <div class="col-md-8">
+            <div class="headline mt-0 mb-0">
+              <div class="headline-content">
+                <h1 class="headline-title display-3">Contactanos.</h1>
+                <p class="headline-subtitle">
+                  Respondemos tus dudas o pedidos de presupuestos en el momento.
+                  <br /><br />
+                  Oficinas Santa Rosa, La Pampa. <br />
+                  Trabajamos sin limitación geográfica. <br />
+                  <button
+                    id="whatsapp-1"
+                    class="btn btn-lg btn-primary ml-auto"
+                  >
+                    <a
+                      id="whatsapp-text"
+                      href="https://api.whatsapp.com/send?phone=5491144132136&text=Hola!"
+                      >Chat directo</a
+                    >
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <!-- Left column -->
+
+          <!-- Right column -->
+          <div class="col-md-7 col-lg-8">
+            <!-- Form -->
+            <form action="./enviar.php" method="post">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="NOMBRE"
+                    placeholder="Nombre"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    name="mail"
+                    class="form-control"
+                    id="CORREO"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group col-md-12">
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    placeholder="Mensaje"
+                    style="min-height: 200px"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="d-flex">
+                <button type="submit" class="btn btn-lg btn-primary ml-auto">
+                  Enviar mensaje
+                </button>
+              </div>
+            </form>
+          </div>
+          <!-- Right column -->
+        </div>
+        <div class="map-responsive">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.2419455818886!2d-64.2890948427483!3d-36.620562416441366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c2cd0789cab0d7%3A0x25ee27119387403a!2sAv.%20San%20Mart%C3%ADn%20%26%20Cnel.%20Gil%2C%20Santa%20Rosa%2C%20La%20Pampa!5e0!3m2!1ses-419!2sar!4v1664900418948!5m2!1ses-419!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="copy">&copy; 2022 DEVNO</div>
+          </div>
+          <div class="col-md-9">
+            <h3 class="footer-title">
+              Brindamos aseoramiento directo para tu consulta. <br />
+              Tu proyecto es nuestra prioridad, hacemos crecer el perfil de tu
+              empresa con resultados estadísticos.
+            </h3>
+            <button id="whatsapp" class="btn btn-lg btn-primary ml-auto">
+              <a
+                id="whatsapp-text"
+                href="https://api.whatsapp.com/send?phone=5491144132136&text=Hola!"
+                >WhatsApp</a
+              >
+            </button>
+            <div class="row mt-5">
+              <div class="col-md-4">
+                <h5>Redes</h5>
+                <ul class="list-unstyled p-0">
+                  <li class="#">
+                    <a
+                      href="https://www.instagram.com/devnoweb/"
+                      target="_blank"
+                      data-bypass=""
+                      >instagram</a
+                    >
+                    <br />
+                  </li>
+                  <li class="#">
+                    <a
+                      href="https://www.facebook.com/devnoweb/"
+                      target="_blank"
+                      data-bypass=""
+                      >facebook</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h4>Portfolios</h4>
+                <ul class="list-unstyled p-0">
+                  <li class="#">
+                    <a href="https://www.behance.net/l0ri" target="_blank"
+                      >Behance</a
+                    >
+                  </li>
+                  <li class="#">
+                    <a href="http://lucas.dev.ar" target="_blank"
+                      >Web personal</a
+                    >
+                    <br />
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h4>Contactos directos</h4>
+                <ul class="list-unstyled p-0">
+                  <li class="#">
+                    <a
+                      href="https://api.whatsapp.com/send?phone=5491144132136&text=Hola!"
+                      >WhatsApp</a
+                    >
+                  </li>
+                  <li class="#">
+                    <a href="mailto:lucaslp79@gmail.com">Mail</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
